@@ -10,8 +10,8 @@ domain_result=open('D:\\Plant proteostasis 2nd edition\\program\\domain_result.t
 
 filenames = os.listdir(spotd_dir)
 def get_domain_site(g):
-    star=g['Start_site']
-    end=g['End_site']
+    star=g['Query_First']
+    end=g['Query_end']
     psd=g['Domain_ID']
     dom_si=(star,end,psd)
     return dom_si
